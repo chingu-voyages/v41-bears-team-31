@@ -1,0 +1,18 @@
+/* main css */
+
+/* vendors */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base */
+/* @import "./base/reset.css";
+@import "./base/typography.css"; */
+
+/* layout */
+
+/* components */
+
+/* pages */
+
+/* utils */
