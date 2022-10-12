@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "vbngfhtyu77",
+    "userName": "gregory_mitchell",
+    "name": "Gregory Mitchell",
+    "email": "gregory.mitchell@example.com",
+    "phoneNumber": "(493) 539-6062",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/men/42.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1990-06-19T010:00:00.000Z"
+  },
+  {
+    "_id": "cvbdf8g9vgd7",
+    "userName": "gregory_carr",
+    "name": "Gregory Carr",
+    "email": "gregory.carr@example.com",
+    "phoneNumber": "(355) 950-8208",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/men/7.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1989-06-19T010:00:00.000Z"
+  },
+  {
+    "_id": "drtybref8g9vgd7",
+    "userName": "aiden_cruz",
+    "name": "Aiden Cruz",
+    "email": "aiden.cruz@example.com",
+    "phoneNumber": "(796) 220-2305",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/men/81.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1995-06-19T010:00:00.000Z"
+  },
+  {
+    "_id": "87678ef8g9vgd7",
+    "userName": "christina_kuhn",
+    "name": "Christina Kuhn",
+    "email": "christina.kuhn@example.com",
+    "phoneNumber": "(959) 871-7500",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/women/79.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1996-06-19T010:00:00.000Z"
+  },
+  {
+    "_id": "8rrgfef8g9vgd7",
+    "userName": "natalie_fisher",
+    "name": "Natalie Fisher",
+    "email": "natalie.fisher@example.com",
+    "phoneNumber": "(852) 368-8072",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/women/88.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1991-06-19T010:00:00.000Z"
+  },
+  {
+    "_id": "8rrgfef8g9vgd7",
+    "userName": "darlene_fleming",
+    "name": "Darlene Fleming",
+    "email": "natalie.fisher@example.com",
+    "phoneNumber": "(852) 368-8072",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/women/88.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1991-06-19T010:00:00.000Z"
+  },
+  {
+    "_id": "8rrgferwccbgd7",
+    "userName": "stephanie_willis",
+    "name": "Stephanie Willis",
+    "email": "stephanie.willis@example.com",
+    "phoneNumber": "(369) 530-3058",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/women/78.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1994-06-19T010:00:00.000Z"
+  },
+  {
+    "_id": "yyttvgferwccbgd7",
+    "userName": "clayton_hayes",
+    "name": "Clayton Hayes",
+    "email": "clayton.hayes@example.com",
+    "phoneNumber": "(832) 767-3175",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/men/3.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1994-08-19T010:00:00.000Z"
+  },
+  {
+    "_id": "yyttvgferwccbgd7",
+    "userName": "victor_miles",
+    "name": "Victor Miles",
+    "email": "victor.miles@example.com",
+    "phoneNumber": "(251) 822-4341",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/men/2.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1995-08-19T010:00:00.000Z"
+  },
+  {
+    "_id": "y6bhu9rwccbgd7",
+    "userName": "roy_reyes",
+    "name": "Roy Reyes",
+    "email": "roy.reyes@example.com",
+    "phoneNumber": "(635) 379-9063",
+    "isVerified": true,
+    "image": "https://randomuser.me/api/portraits/men/12.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS",
+    "birthday": "1996-10-19T010:00:00.000Z"
+  }
+]
