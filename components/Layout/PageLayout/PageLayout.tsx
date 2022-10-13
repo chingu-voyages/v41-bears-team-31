@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React, { HTMLProps } from 'react';
 import { layoutProps } from '../../../interfaces';
-import Footer from '../Footer';
+import { Footer } from '../Footer';
 import Header from '../Header';
 
 const PageLayout: React.FC<HTMLProps<HTMLDivElement>> = React.memo(
