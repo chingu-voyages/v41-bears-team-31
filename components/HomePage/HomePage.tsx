@@ -1,6 +1,4 @@
 import React from 'react';
-import Button from '../Common/Button';
-import ButtonPrimary from '../Common/ButtonPrimary';
 
 const HomePage = () => {
   return (
