@@ -6,13 +6,12 @@
 @tailwind utilities;
 
 /* base */
-/* @import "./base/reset.css";
-@import "./base/typography.css"; */
+@import './base/reset.css';
+@import './base/typography.css';
 
 /* layout */
 
 /* components */
-
-/* pages */
+@import './components/modal.css'; /* pages */
 
 /* utils */
