@@ -6,7 +6,10 @@ interface Props extends React.ComponentPropsWithoutRef<'button'> {
 
 const Button = ({ className, children, ...rest }: Props) => {
   return (
-    <button className={`text-sm font-bold ${className}`} {...rest}>
+    <button
+      className={`text-base font-medium text-text-primary ${className}`}
+      {...rest}
+    >
       {children}
     </button>
   );

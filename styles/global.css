@@ -12,6 +12,9 @@
 /* layout */
 
 /* components */
-@import './components/modal.css'; /* pages */
+@import './components/modal.css';
+@import './components/header.css';
+
+/* pages */
 
 /* utils */
