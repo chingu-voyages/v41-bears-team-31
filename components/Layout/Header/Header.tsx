@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Button from '../../Common/Button';
+import ButtonPrimary from '../../Common/ButtonPrimary';
 
 export const Header: React.FC = () => {
   const center = 'flex items-center justify-center';
@@ -17,6 +18,9 @@ export const Header: React.FC = () => {
           </li>
           <li className={center}>
             <Button>Explore</Button>
+          </li>
+          <li className={center}>
+            <ButtonPrimary>Create A Spook</ButtonPrimary>
           </li>
           <li className={center}>
             <Button>
