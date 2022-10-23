@@ -1,9 +1,14 @@
-import { NextPage } from 'next';
-import React from 'react';
-import { PageLayout } from '../../components';
+import type { NextPage } from "next";
+import { PageLayout } from "../../components";
+
 
 const Profile: NextPage = () => {
-  return <PageLayout title="Profile">Profile</PageLayout>;
+  return (
+    <PageLayout>
+       
+    </PageLayout>
+   
+  );
 };
 
 export default Profile;
