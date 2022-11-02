@@ -117,7 +117,9 @@ export const Header: React.FC = () => {
             <div className="flex items-center justify-between px-5 pt-4">
               <div>
                 <button className="website-logo">
-                  <h1 className="uppercase">Spooky season</h1>
+                  <a href="#">
+                    <h1 className="uppercase">Spooky season</h1>
+                  </a>
                 </button>
               </div>
               <div className="-mr-2">
