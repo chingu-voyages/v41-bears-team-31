@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 const ProfileTile = ({ title }) => {
   const router = useRouter();
   function handleClick() {
-    router.push('/profile/PersonalProfile');
+    router.push(`profile/${title}`);
   }
   return (
     <button
