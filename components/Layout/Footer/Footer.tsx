@@ -1,9 +1,18 @@
 import React from 'react';
+const { version } = require('../../../package.json');
 
-export const Footer: React.FC = () => {
-  return <footer>Footer</footer>;
+const Footer: React.FC = () => {
+  return (
+    <footer className="fixed bottom-0 left-0 right-0 flex h-20 w-full items-center justify-center text-center text-text-primary">
+      <p>
+        <small> Version {version} </small>
+      </p>
+    </footer>
+  );
 };
 
-Footer.displayName = 'Footer';
-
 export default Footer;
+
+/**
+ * "absolute bottom-0 left-0 right-0 flex h-20 w-full items-center justify-center bg-purple-900 text-center text-white"
+ */

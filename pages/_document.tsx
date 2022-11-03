@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        
+        <meta name="description" content="Halloween theme website" />
       </Head>
       <body>
         <Main />

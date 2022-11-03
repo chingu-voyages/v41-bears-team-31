@@ -1,1 +1,1 @@
-export { default as SmallButton } from './SmallButton';
+export { default as Modal } from './Modal';
