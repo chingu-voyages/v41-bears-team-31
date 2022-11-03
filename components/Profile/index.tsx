@@ -1,1 +1,1 @@
-export { default as Profile } from './ProfileTile';
+export { default as ProfileTile } from './ProfileTile';

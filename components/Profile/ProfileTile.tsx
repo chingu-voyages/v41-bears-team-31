@@ -1,13 +1,22 @@
 import { NextPage } from 'next';
 import React from 'react';
-import { PageLayout } from '..';
+import { useRouter } from 'next/router';
 
-const Profile = ({ title }) => {
+const ProfileTile = ({ title }) => {
+  const router = useRouter();
+  function handleClick() {
+    router.push(`profile/${title}`);
+  }
   return (
-    <div className="m-auto block h-60 w-60 rounded border-2 border-solid shadow-lg">
-      <h2 className="text-black-500 text-center ">{title}</h2>
-    </div>
+    <button
+      className=" h-60 w-60 rounded text-center shadow-lg"
+      onClick={() => {
+        handleClick();
+      }}
+    >
+      <h1>{title}</h1>
+    </button>
   );
 };
 
-export default Profile;
+export default ProfileTile;
