@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import { PageLayout } from '../../components';
-import ButtonPrimary from '../../components/Common/ButtonPrimary';
+import Button from '../../components/Common/Button';
 import ProfileTile from '../../components/Profile/ProfileTile';
 
 const Profile: NextPage = () => {
@@ -8,8 +8,8 @@ const Profile: NextPage = () => {
     <PageLayout>
       <div className="container mx-auto pt-20">
         <h1>Account</h1>
-        <section className="mt-1.5">
-          <ButtonPrimary>{`Create a Spook`}</ButtonPrimary>
+        <section className="mt-1.5 grid grid-rows-1 justify-items-start">
+          <Button className="justify-self-end rounded border-solid border-stone-500 p-1.5">{`Create`}</Button>
           <div className="flex gap-x-2 pt-2">
             <ProfileTile title="PersonalProfile" />
             <ProfileTile title="Created" />
