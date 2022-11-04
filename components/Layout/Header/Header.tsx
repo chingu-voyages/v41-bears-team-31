@@ -108,6 +108,10 @@ export const Header: React.FC = () => {
               >
                 <header className="text-2xl font-bold">SignUp/Login</header>
                 <Login />
+                <footer>
+                  Already have an account?{' '}
+                  <span className="underline">Login here</span>
+                </footer>
               </SignUpModal>
               <ButtonPrimary>Create A Spook</ButtonPrimary>
               <Button onClick={() => router.push(`/profile`)}>

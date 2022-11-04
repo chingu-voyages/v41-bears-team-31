@@ -10,7 +10,7 @@ const Login = () => {
           <label htmlFor="username">
             <div className="text-xl font-semibold">* Username:</div>
             <input
-              className="h-8 w-full rounded border-2"
+              className="h-10 w-full rounded border-2"
               type="text"
               id="username"
               name="username"
@@ -29,7 +29,7 @@ const Login = () => {
               * Password:
             </div>
             <input
-              className="h-8 w-full border-2"
+              className="h-10 w-full border-2"
               type="password"
               id="password"
               name="password"

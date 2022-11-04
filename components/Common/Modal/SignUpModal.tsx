@@ -44,7 +44,7 @@ const SignUpModal = ({
             </div>
             <header>{header}</header>
             <div className="flex justify-items-center">
-              <main className="">{children}</main>
+              <main>{children}</main>
             </div>
             <footer>{footer}</footer>
           </div>
