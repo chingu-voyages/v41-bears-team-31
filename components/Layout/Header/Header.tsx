@@ -1,12 +1,15 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import Button from '../../Common/Button';
 import ButtonPrimary from '../../Common/ButtonPrimary';
 import { useRouter } from 'next/router';
+import SignUpModal from '../../Common/Modal/SignUpModal';
+import Login from '../../Login';
 
 export const Header: React.FC = () => {
-  const center = 'flex items-center justify-center';
+  // const center = 'flex items-center justify-center';
   const router = useRouter();
+  const [isModalVisible, setModalVisible] = useState(false);
   return (
     // <header className="flex flex-row justify-between px-4 py-2">
     //   <button className="website-logo">
@@ -93,11 +96,19 @@ export const Header: React.FC = () => {
                 Explore
               </a>
               <a
+                onClick={() => setModalVisible(true)}
                 href="#"
                 className="font-medium text-indigo-600 hover:text-indigo-500"
               >
                 Log in
               </a>
+              <SignUpModal
+                isVisible={isModalVisible}
+                onClose={() => setModalVisible(!isModalVisible)}
+              >
+                <header className="text-2xl font-bold">SignUp/Login</header>
+                <Login />
+              </SignUpModal>
               <ButtonPrimary>Create A Spook</ButtonPrimary>
               <Button onClick={() => router.push(`/profile`)}>
                 <Image

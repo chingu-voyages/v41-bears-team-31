@@ -8,10 +8,6 @@ import { Footer } from '../Layout/Footer';
 const HomePage = () => {
   return (
     <>
-      {/* <h1 classNameName="text-3xl font-bold text-blue-500 underline">
-        SPOOKY SEASON!
-      </h1> */}
-
       <div className="relative overflow-hidden bg-white">
         <div className="mx-auto max-w-7xl">
           <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
