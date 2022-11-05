@@ -5,11 +5,14 @@ import ButtonPrimary from '../../Common/ButtonPrimary';
 import { useRouter } from 'next/router';
 import SignUpModal from '../../Common/Modal/SignUpModal';
 import Login from '../../Login';
+import CreatePostModal from '../../Common/Modal/CreatePost';
+import CreateForm from '../../CreateForm';
 
 export const Header: React.FC = () => {
   // const center = 'flex items-center justify-center';
   const router = useRouter();
   const [isModalVisible, setModalVisible] = useState(false);
+  const [activeModal, setActiveModal] = useState('');
   return (
     // <header className="flex flex-row justify-between px-4 py-2">
     //   <button className="website-logo">
@@ -96,24 +99,45 @@ export const Header: React.FC = () => {
                 Explore
               </a>
               <a
-                onClick={() => setModalVisible(true)}
+                onClick={() => {
+                  setModalVisible(true);
+                  setActiveModal('login');
+                }}
                 href="#"
                 className="font-medium text-indigo-600 hover:text-indigo-500"
               >
                 Log in
               </a>
               <SignUpModal
-                isVisible={isModalVisible}
-                onClose={() => setModalVisible(!isModalVisible)}
+                isVisible={isModalVisible && activeModal === 'login'}
+                onClose={() => {
+                  setModalVisible(!isModalVisible);
+                }}
               >
-                <header className="text-2xl font-bold">SignUp/Login</header>
+                <header className="text-2xl font-bold">Login</header>
                 <Login />
-                <footer>
-                  Already have an account?{' '}
-                  <span className="underline">Login here</span>
+                <footer className="mt-2">
+                  Dont have an account yet?{' '}
+                  <span className="underline">Signup here</span>
                 </footer>
               </SignUpModal>
-              <ButtonPrimary>Create A Spook</ButtonPrimary>
+              <ButtonPrimary
+                handleClick={() => {
+                  setModalVisible(true);
+                  setActiveModal('createpost');
+                }}
+              >
+                Create A Spook!
+              </ButtonPrimary>
+              <CreatePostModal
+                isVisible={isModalVisible && activeModal === 'createpost'}
+                onClose={() => setModalVisible(!isModalVisible)}
+              >
+                <header className="text-2xl font-bold">
+                  Get your Spook out there!
+                </header>
+                <CreateForm />
+              </CreatePostModal>
               <Button onClick={() => router.push(`/profile`)}>
                 <Image
                   src={'/spookyImg.jpeg'}

@@ -4,7 +4,7 @@ import ButtonPrimary from '../Common/ButtonPrimary';
 
 const Login = () => {
   return (
-    <form className="mt-6 " onSubmit={(e) => {}}>
+    <form className="mt-6" onSubmit={(e) => {}}>
       <fieldset>
         <div className="">
           <label htmlFor="username">
@@ -43,7 +43,7 @@ const Login = () => {
                   <ErrorMessage message={this.state.error} />
                 )} */}
           </label>
-          <div className="mt-4">
+          <div className="mt-6">
             <ButtonPrimary>SUBMIT</ButtonPrimary>
           </div>
         </div>
