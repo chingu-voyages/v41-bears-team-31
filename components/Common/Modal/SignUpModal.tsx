@@ -1,6 +1,7 @@
+import { url } from 'inspector';
 import React, { useEffect, useRef, useState } from 'react';
 import reactDOM from 'react-dom';
-import 'tw-elements'; //sometimes crash, gotta recheck!
+import LoginBkgr from '../../../public/login-bkg.jpg';
 
 export interface modalProps {
   isVisible: boolean;
@@ -10,7 +11,7 @@ export interface modalProps {
   onClose: any;
 }
 
-const Modal = ({
+const SignUpModal = ({
   isVisible,
   children,
   onClose,
@@ -27,21 +28,30 @@ const Modal = ({
 
   return isVisible && mounted && ref.current
     ? reactDOM.createPortal(
-        <>
-          <div className="overly" onClick={onClose} />
-
-          <div className="modal__main" onClick={onClose}>
-            <div className="close-button-container">
-              <i className="fa-solid fa-circle-xmark"></i>
+        <div className="absolute">
+          <div className="overly" />
+          <div
+            style={{
+              width: '24vw',
+              height: '448px',
+              background: `url(${LoginBkgr})`,
+            }}
+            className="modal__main mx-auto mt-20 rounded-sm
+              bg-slate-50 shadow-md shadow-slate-300"
+          >
+            <div className="close-button-container " onClick={onClose}>
+              <i className=" fa-solid fa-circle-xmark"></i>
             </div>
             <header>{header}</header>
-            <main>{children}</main>
+            <div className="flex justify-items-center">
+              <main>{children}</main>
+            </div>
             <footer>{footer}</footer>
           </div>
-        </>,
+        </div>,
         document.getElementById('portal') as HTMLElement
       )
     : null;
 };
 
-export default Modal;
+export default SignUpModal;

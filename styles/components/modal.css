@@ -4,13 +4,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #000000e6;
+  /* background-color: #000000e6; */
   z-index: 9999;
 }
 
 .modal__main {
   top: 0px;
-  padding: 10px;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,12 +23,15 @@
 
 .modal__main main {
   width: 100%;
+
+  
 }
 
 .close-button-container {
   position: absolute;
   top: 0px;
-  color: #fff;
+  /* color: #fff; */
+  color: #484848;
   font-size: 35px;
   right: 10px;
 }

@@ -8,10 +8,6 @@ import { Footer } from '../Layout/Footer';
 const HomePage = () => {
   return (
     <>
-      {/* <h1 classNameName="text-3xl font-bold text-blue-500 underline">
-        SPOOKY SEASON!
-      </h1> */}
-
       <div className="relative overflow-hidden bg-white">
         <div className="mx-auto max-w-7xl">
           <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
@@ -19,7 +15,7 @@ const HomePage = () => {
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                   <span className="block xl:inline">The best way to find</span>
-                  <span className="block text-indigo-600 xl:inline">
+                  <span className="block text-purple-800 xl:inline">
                     {' '}
                     your Halloween Inspirations
                   </span>
@@ -33,7 +29,7 @@ const HomePage = () => {
                   <div className="rounded-md shadow">
                     <a
                       href="#"
-                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-purple-800 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
                     >
                       Find a spook
                     </a>
