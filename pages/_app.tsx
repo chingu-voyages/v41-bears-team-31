@@ -1,10 +1,19 @@
 import '../styles/global.css';
+import { useEffect } from 'react';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import AppProvider from '../context/AppContext';
 import Script from 'next/script';
+import React from 'react';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    const use = async () => {
+      (await import('tw-elements')).default;
+    };
+    use();
+  }, []);
+
   return (
     <>
       <Head>

@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import reactDOM from 'react-dom';
-import 'tw-elements'; //sometimes crash, gotta recheck!
 
 export interface modalProps {
   isVisible: boolean;
